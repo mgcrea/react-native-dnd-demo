@@ -1520,10 +1520,10 @@
     eslint-plugin-react-native "^4.0.0"
     eslint-plugin-testing-library "^6.0.1"
 
-"@mgcrea/react-native-dnd@^1.5.6":
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/@mgcrea/react-native-dnd/-/react-native-dnd-1.5.6.tgz#df76add34ae174c4ac9f0a455c12e14fa6a2bbb4"
-  integrity sha512-Dbuh9uRLEguK0HOvCeselNH2p4i9/lqHRoEm1R6F+eH58WOgqbVDS+kFdBRW1EVxzgDOECj++ue0g/MU1zBKZQ==
+"@mgcrea/react-native-dnd@^1.5.8":
+  version "1.5.8"
+  resolved "https://registry.yarnpkg.com/@mgcrea/react-native-dnd/-/react-native-dnd-1.5.8.tgz#d90251dd3356609ad1c220b867492a19402af587"
+  integrity sha512-XJDMM/skx8t0ftLYNi1ksVywnJyKnXu68XIL43dYFqHLY3xzaYatjj316JX49o3i/1ssdWzgzXrGLlVBt6Lang==
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
