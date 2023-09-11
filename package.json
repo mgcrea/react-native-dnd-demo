@@ -1,6 +1,10 @@
 {
   "name": "@mgcrea/react-native-dnd-demo",
   "version": "0.0.1",
+  "description": "Demo project for @mgcrea/react-native-dnd",
+  "author": "Olivier Louvignes <olivier@mgcrea.io>",
+  "repository": "github:mgcrea/react-native-dnd-demo",
+  "license": "MIT",
   "scripts": {
     "start": "react-native start",
     "dev": "watchman watch-del \"$(pwd)\"; watchman watch-project \"$(pwd)\"; clear; react-native start --reset-cache",
@@ -11,12 +15,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "@mgcrea/react-native-dnd": "^1.5.8",
+    "@mgcrea/react-native-dnd": "^1.6.0",
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-gesture-handler": "^2.12.1",
     "react-native-haptic-feedback": "^2.0.3",
-    "react-native-reanimated": "^3.4.2"
+    "react-native-reanimated": "^3.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

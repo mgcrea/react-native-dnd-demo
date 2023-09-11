@@ -1,5 +1,11 @@
-import { DndProvider, DndProviderProps, Draggable, Droppable } from "@mgcrea/react-native-dnd";
-import React, { FunctionComponent } from "react";
+import {
+  AnimatedStyleWorklet,
+  DndProvider,
+  DndProviderProps,
+  Draggable,
+  Droppable,
+} from "@mgcrea/react-native-dnd";
+import React, { FunctionComponent, useCallback } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { State } from "react-native-gesture-handler";
 
@@ -24,12 +30,18 @@ export const BasicExample: FunctionComponent = () => {
     }
   };
 
+  const droppableStyleWorklet = useCallback<AnimatedStyleWorklet>((style, { isActive }) => {
+    "worklet";
+    style.backgroundColor = isActive ? "peachpuff" : "darkseagreen";
+    return style;
+  }, []);
+
   return (
     <View style={{ padding: 64, height: "100%" }}>
       <Text style={{ color: "black" }}>BasicExample</Text>
 
       <DndProvider onBegin={handleBegin} onFinalize={handleFinalize} onDragEnd={handleDragEnd}>
-        <Droppable id="drop" style={styles.box}>
+        <Droppable id="drop" style={styles.box} animatedStyleWorklet={droppableStyleWorklet}>
           <Text>DROP</Text>
         </Droppable>
         <Draggable id="drag" style={styles.box}>

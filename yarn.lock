@@ -1520,10 +1520,10 @@
     eslint-plugin-react-native "^4.0.0"
     eslint-plugin-testing-library "^6.0.1"
 
-"@mgcrea/react-native-dnd@^1.5.8":
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/@mgcrea/react-native-dnd/-/react-native-dnd-1.5.8.tgz#d90251dd3356609ad1c220b867492a19402af587"
-  integrity sha512-XJDMM/skx8t0ftLYNi1ksVywnJyKnXu68XIL43dYFqHLY3xzaYatjj316JX49o3i/1ssdWzgzXrGLlVBt6Lang==
+"@mgcrea/react-native-dnd@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@mgcrea/react-native-dnd/-/react-native-dnd-1.6.0.tgz#948b7a6e30b053edf6fbc21ac1c8ed90ad61016c"
+  integrity sha512-BMUpWy4Du7W2Lyvyk4Sq8Gq6ZI9tG7pwbycOCJ/FrTBqQW2yjqilxs67qD4m9PLEIaTGUAy93YZ11JwBU+Q73A==
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
@@ -6018,10 +6018,10 @@ react-native-haptic-feedback@^2.0.3:
   resolved "https://registry.yarnpkg.com/react-native-haptic-feedback/-/react-native-haptic-feedback-2.0.3.tgz#09133b2175503831c04798cb0dc63ae91e3959c1"
   integrity sha512-7+qvcxXZts/hA+HOOIFyM1x9m9fn/TJVSTgXaoQ8uT4gLc97IMvqHQ559tDmnlth+hHMzd3HRMpmRLWoKPL0DA==
 
-react-native-reanimated@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-3.4.2.tgz#744154fead6d8d31d5bd9ac617d8c84d74a6f697"
-  integrity sha512-FbtG+f1PB005vDTJSv4zAnTK7nNXi+FjFgbAM5gOzIZDajfph2BFMSUstzIsN8T77+OKuugUBmcTqLnQ24EBVg==
+react-native-reanimated@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-3.5.0.tgz#f6ecac80f6263de397e2e105ce5d9caf0397621e"
+  integrity sha512-om2AfxCD0YyBvGADJ5Ql38CKIJ8MXZTTpve1jt94TcRjLHXui24wYomoumSnnBQEfeRDzjwpmFdqcLtJ5mU5Pg==
   dependencies:
     "@babel/plugin-transform-object-assign" "^7.16.7"
     "@babel/preset-typescript" "^7.16.7"
