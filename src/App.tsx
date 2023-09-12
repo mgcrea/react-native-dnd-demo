@@ -8,6 +8,7 @@ export const App: FunctionComponent = () => {
   const isDarkMode = useColorScheme() === "dark";
 
   const backgroundStyle = {
+    flex: 1,
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
@@ -17,8 +18,9 @@ export const App: FunctionComponent = () => {
         barStyle={isDarkMode ? "light-content" : "dark-content"}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <GestureHandlerRootView>
+      <GestureHandlerRootView style={{ flex: 1 }}>
         <BasicExample />
+        {/* <FlatListExample /> */}
       </GestureHandlerRootView>
     </SafeAreaView>
   );
