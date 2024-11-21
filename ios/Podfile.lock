@@ -485,39 +485,16 @@ PODS:
     - React-jsi (= 0.72.17)
     - React-logger (= 0.72.17)
     - React-perflogger (= 0.72.17)
-  - RNGestureHandler (2.12.1):
+  - RNGestureHandler (2.21.2):
+    - RCT-Folly (= 2021.07.22.00)
     - React-Core
-  - RNReactNativeHapticFeedback (2.2.0):
+  - RNReactNativeHapticFeedback (2.3.3):
+    - RCT-Folly (= 2021.07.22.00)
     - React-Core
-  - RNReanimated (3.5.1):
-    - DoubleConversion
-    - FBLazyVector
-    - glog
-    - hermes-engine
-    - RCT-Folly
-    - RCTRequired
-    - RCTTypeSafety
-    - React-callinvoker
+  - RNReanimated (3.6.3):
+    - RCT-Folly (= 2021.07.22.00)
     - React-Core
-    - React-Core/DevSupport
-    - React-Core/RCTWebSocket
-    - React-CoreModules
-    - React-cxxreact
-    - React-hermes
-    - React-jsi
-    - React-jsiexecutor
-    - React-jsinspector
-    - React-RCTActionSheet
-    - React-RCTAnimation
-    - React-RCTAppDelegate
-    - React-RCTBlob
-    - React-RCTImage
-    - React-RCTLinking
-    - React-RCTNetwork
-    - React-RCTSettings
-    - React-RCTText
     - ReactCommon/turbomodule/core
-    - Yoga
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -745,9 +722,9 @@ SPEC CHECKSUMS:
   React-runtimescheduler: ff30efdf24f8ce62eb517a391ded3d99c4263bb0
   React-utils: 7959d4553163b61e01bbe83dbd80e58ca420aecb
   ReactCommon: 841449721eb2e004de2c3366844b0a03f329f2cb
-  RNGestureHandler: c0d04458598fcb26052494ae23dda8f8f5162b13
-  RNReactNativeHapticFeedback: ec56a5f81c3941206fd85625fa669ffc7b4545f9
-  RNReanimated: 99aa8c96151abbc2d7e737a56ec62aca709f0c92
+  RNGestureHandler: 21ec7c46741881c8f164961da99c6ec42e9d544b
+  RNReactNativeHapticFeedback: e17bbbec79caae6fa9b85b06ab2b8e94717b2f39
+  RNReanimated: 548e621fe2e12b6bdccbc48ed5e5361d9822c775
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: ef534101bb891fb09bae657417f34d399c1efe38
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a

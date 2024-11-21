@@ -241,6 +241,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-plugin-utils@npm:^7.25.9":
+  version: 7.25.9
+  resolution: "@babel/helper-plugin-utils@npm:7.25.9"
+  checksum: e19ec8acf0b696756e6d84531f532c5fe508dce57aa68c75572a77798bd04587a844a9a6c8ea7d62d673e21fdc174d091c9097fb29aea1c1b49f9c6eaa80f022
+  languageName: node
+  linkType: hard
+
 "@babel/helper-remap-async-to-generator@npm:^7.18.9, @babel/helper-remap-async-to-generator@npm:^7.22.5, @babel/helper-remap-async-to-generator@npm:^7.22.9":
   version: 7.22.9
   resolution: "@babel/helper-remap-async-to-generator@npm:7.22.9"
@@ -1127,13 +1134,13 @@ __metadata:
   linkType: hard
 
 "@babel/plugin-transform-object-assign@npm:^7.16.7":
-  version: 7.22.5
-  resolution: "@babel/plugin-transform-object-assign@npm:7.22.5"
+  version: 7.25.9
+  resolution: "@babel/plugin-transform-object-assign@npm:7.25.9"
   dependencies:
-    "@babel/helper-plugin-utils": ^7.22.5
+    "@babel/helper-plugin-utils": ^7.25.9
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 5b672d72c7b12973e5e5881c3e69ab02474c44add224a9972b9450f859e713b2065fa18b88797b1393ad72cb952c0b14d80fa36960a17d6b558f24ee5cde219c
+  checksum: d2664884b1e0ec7245adfb5b511f994304271cc3f0fa41a2e2f0e8a096151227c67595c65351ae7f2561928de5c3b9fe13b53ac2267597833ef32e3cb0e0f327
   languageName: node
   linkType: hard
 
@@ -2144,7 +2151,7 @@ __metadata:
     react-native: 0.72.17
     react-native-gesture-handler: ^2.12.1
     react-native-haptic-feedback: ^2.2.0
-    react-native-reanimated: ^3.5.1
+    react-native-reanimated: ~3.6.0
     react-test-renderer: 18.2.0
     typescript: 5.2.2
   languageName: unknown
@@ -8248,33 +8255,32 @@ __metadata:
   linkType: hard
 
 "react-native-gesture-handler@npm:^2.12.1":
-  version: 2.12.1
-  resolution: "react-native-gesture-handler@npm:2.12.1"
+  version: 2.21.2
+  resolution: "react-native-gesture-handler@npm:2.21.2"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
     invariant: ^2.2.4
-    lodash: ^4.17.21
     prop-types: ^15.7.2
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 1aec3d71c5fd3b8087e613708ee77a0ce7a1ac2bc87f5a6a22529300795b48aaa2359bcba7309f2c14f9de1ca1ffa4904d06b3cb7263820f657a4469976aecb3
+  checksum: 0a42cedb8860a326b465085d0f7622ba03f038b0f0bdd1b1fe5703e58d62cb08bfb82a686c069a1a1410705c2ae0d82971b0449d83796fdd6d071131cf88e68b
   languageName: node
   linkType: hard
 
 "react-native-haptic-feedback@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "react-native-haptic-feedback@npm:2.2.0"
+  version: 2.3.3
+  resolution: "react-native-haptic-feedback@npm:2.3.3"
   peerDependencies:
     react-native: ">=0.60.0"
-  checksum: e7ce6b303a799dc7fd1c5851379b555b65052c3ef7fefe836c7881f125e4057134462554a996762e67ecc7f01e82e45dc3bcad17cc232b53511006160d5f98ed
+  checksum: 5ff12aaf44fa1cad8ab3d9c58046a11c631c6622955120294060efc51c625203ee4cd7ccb565663c12b27552ebbb7034a386000d9da738b9eea5ff62d58b14c0
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:^3.5.1":
-  version: 3.5.1
-  resolution: "react-native-reanimated@npm:3.5.1"
+"react-native-reanimated@npm:~3.6.0":
+  version: 3.6.3
+  resolution: "react-native-reanimated@npm:3.6.3"
   dependencies:
     "@babel/plugin-transform-object-assign": ^7.16.7
     "@babel/preset-typescript": ^7.16.7
@@ -8289,7 +8295,7 @@ __metadata:
     "@babel/plugin-transform-template-literals": ^7.0.0-0
     react: "*"
     react-native: "*"
-  checksum: 2079c06a0cf99b4ce178713f78c6d17affaaba9986eb1b096fb9b39a28050424b196f1655c2e6fe1df09c847cd5cd8701cb29fa676aa34a417675240d8b86627
+  checksum: 5094beff09bbeaa13101aca9dfb7be7749ccdea72f240751a2a3f23a354cfc6fdf701549fa6c5dff32d03dc1ed4e404a29db3729519c7098d94ae6c8821a32bd
   languageName: node
   linkType: hard
 
