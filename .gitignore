@@ -64,3 +64,10 @@ yarn-error.log
 
 # testing
 /coverage
+
+# other
+.idea/
+.yarn/
+
+# personal
+ios/ReactNativeDndDemo.xcodeproj/project.pbxproj

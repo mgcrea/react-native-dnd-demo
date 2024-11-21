@@ -20,7 +20,6 @@ export const App: FunctionComponent = () => {
       />
       <GestureHandlerRootView style={{ flex: 1 }}>
         <BasicExample />
-        {/* <FlatListExample /> */}
       </GestureHandlerRootView>
     </SafeAreaView>
   );
